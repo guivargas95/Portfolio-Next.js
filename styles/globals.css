@@ -1,0 +1,245 @@
+html,
+
+
+/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* PÁGINA */
+
+.faixa1 {
+  width: 100%;
+  height: 90px;
+  background-image: linear-gradient(black, white);
+}
+
+.logo {
+  color: white;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 25%;
+  font-size: 30px;
+  font-family: 'Alex Brush', cursive;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.redes-sociais {
+  position: absolute;
+  left: 60%;
+  margin-top: 2%;
+}
+
+.faixa1 ul li {
+  display: inline;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.faixa2 {
+  width: 100%;
+  height: 70px;
+}
+
+.faixa2 ul li {
+  display: inline;
+  margin-left: 110px;
+}
+
+nav {
+  position: absolute;
+  margin-left: 17%;
+  margin-top: 1%;
+}
+
+nav ul li {
+  color: #af7f7f;
+  font-size: large;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav ul li:hover {
+  font-weight: bold;
+  color: #00bac6;
+  border-bottom: 3px solid #00bac6;
+}
+
+.banner {
+  background-image: url(../img/banner4.jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+}
+
+.habilidades {
+  color: #fff;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  position: absolute;
+  margin-left: -400px;
+  padding-left: 25%;
+  grid-area: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5%;
+}
+
+.habilidades h1 {
+  font-size: 25px;
+}
+
+.habilidades p {
+  margin-top: 15px;
+}
+
+.main-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
+}
+
+.faixa-row {
+  width: 50%;
+  color: white;
+  background-color: #212529;
+  margin-left: 26%;
+  height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.faixa-row h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 5px;
+}
+
+.conteudo {
+  border: 9px solid #212529;
+  border-top-width: 10px;
+  width: 50%;
+  margin-left: 26%;
+  height: 100px;
+  border-width: 2px;
+  display: grid;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 15px 5px black;
+  background-image: linear-gradient(black, white);
+  padding-top: 30px;
+  color: white;
+  font-size: 25px;
+}
+
+.conteudo:hover {
+  border-color: #00bac6;
+  border-width: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #212529;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .banner {
+      background-position: left;
+  }
+  .redes-sociais {
+      position: absolute;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 50px;
+      margin-left: -130px;
+  }
+  .faixa1 ul li {
+      display: inline;
+      margin-left: 10px;
+      cursor: pointer;
+  }
+  .faixa2 ul {
+      position: absolute;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .faixa2 ul li {
+      margin-left: 40px;
+      margin-top: 25px;
+  }
+  .habilidades {
+      font-size: small;
+      color: #fff;
+      font-weight: bold;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      text-align: center;
+      position: absolute;
+      margin-left: -95px;
+      padding-left: 25%;
+      margin-top: 50px;
+      grid-area: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .habilidades h1 {
+      font-size: 15px;
+  }
+  .habilidades p {
+      margin-top: 20px;
+  }
+  footer p {
+      font-size: 10px;
+  }
+}
