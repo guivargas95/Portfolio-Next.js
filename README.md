@@ -8,5 +8,5 @@ O site está hospedado em: https://www.guivargas.com/
 
 Principais tecnologias utilizadas:
 
-React.js com Next.js, CSS & HTML5
+React.js com Next.js, CSS & HTML5.
 
