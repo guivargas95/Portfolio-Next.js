@@ -22,8 +22,8 @@ export default class Header extends Component {
                     <div class="faixa2">
                         <nav>
                             <ul>
-                                <li><a href="http://localhost:3000/">Início</a></li>
-                                <li><a href="http://localhost:3000/contato">Contato</a></li>
+                                <li><a href="/">Início</a></li>
+                                <li><a href="/contato">Contato</a></li>
                             </ul>
                         </nav>
                     </div>
