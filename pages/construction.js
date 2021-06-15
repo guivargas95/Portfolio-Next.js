@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Head from "../components/Head"
+import UnderConstruction from "../components/UnderConstruction"
 
 export default function Contato() {
   return (
@@ -14,6 +15,8 @@ export default function Contato() {
         <Header></Header>
 
         <main>
+
+          <UnderConstruction></UnderConstruction>
 
           
 

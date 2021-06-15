@@ -7,7 +7,7 @@ import Head from "../components/Head"
 export default function Home() {
   return (
     <section>
-      <html lang="pt-br" />
+      
 
       <Head></Head>
 

@@ -1,11 +1,14 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Head from "../components/Head"
+import ContatoPage from "../components/ContatoPage"
+
+
 
 export default function Contato() {
   return (
     <section>
-      <html lang="pt-br" />
+      
 
       <Head></Head>
 
@@ -15,7 +18,7 @@ export default function Contato() {
 
         <main>
 
-          
+          <ContatoPage></ContatoPage>
 
 
           <Footer></Footer>
