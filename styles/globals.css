@@ -81,12 +81,12 @@ table {
   
 
 }
-.nav ul li a:link {
+.faixa2 nav ul li a:link {
   color:#af7f7f;
   
 
 }
-.nav ul li a:visited {
+a.faixa2:visited {
   color:#af7f7f;
   
 
