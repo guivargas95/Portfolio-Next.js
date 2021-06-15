@@ -6,6 +6,7 @@ import UnderConstruction from "../components/UnderConstruction"
 export default function Contato() {
   return (
     <section>
+      <title>Em construção</title>
       <html lang="pt-br" />
 
       <Head></Head>

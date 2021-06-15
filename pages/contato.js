@@ -8,7 +8,7 @@ import ContatoPage from "../components/ContatoPage"
 export default function Contato() {
   return (
     <section>
-      
+      <title>Contato</title>
 
       <Head></Head>
 

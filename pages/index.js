@@ -6,7 +6,9 @@ import Head from "../components/Head"
 
 export default function Home() {
   return (
+    
     <section>
+      <title>Home</title>
       
 
       <Head></Head>
