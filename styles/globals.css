@@ -78,7 +78,17 @@ table {
 .faixa2 ul li {
   display: inline;
   margin-left: 110px;
-  color: inherit;
+  
+
+}
+.nav ul li a:link {
+  color:#af7f7f;
+  
+
+}
+.nav ul li a:visited {
+  color:#af7f7f;
+  
 
 }
 
