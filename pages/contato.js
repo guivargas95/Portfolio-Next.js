@@ -1,10 +1,11 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import Projetos from "../components/Projetos"
 import Head from "../components/Head"
+import ContatoPage from "../components/ContatoPage"
 
 
-export default function Home() {
+
+export default function Contato() {
   return (
     <section>
       
@@ -17,7 +18,7 @@ export default function Home() {
 
         <main>
 
-          <Projetos></Projetos>
+          <ContatoPage></ContatoPage>
 
 
           <Footer></Footer>
